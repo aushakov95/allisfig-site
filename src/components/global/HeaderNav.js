@@ -10,7 +10,7 @@ const HeaderNav = () => (
       <Link to="/styles">Styles</Link>
     </nav>
     <div className="logo light">
-      <Link to="/" className="logo-link">Allis Fig Pottery</Link>
+      <Link to="/">Allis Fig Pottery</Link>
     </div>
     <nav className="secondary-nav light">
       <CartCounter />
