@@ -9,9 +9,9 @@ const HeaderNav = () => (
       <Link to="/products">Products</Link>
       <Link to="/styles">Styles</Link>
     </nav>
-    <div className="logo light">
-      <Link to="/">Allis Fig Pottery</Link>
-    </div>
+    // <div className="logo light">
+    //   <Link to="/">Allis Fig Pottery</Link>
+    // </div>
     <nav className="secondary-nav light">
       <CartCounter />
     </nav>

@@ -19,9 +19,9 @@ const HomeHeader = props => (
 
     <div className="header-container">
       <div className="content">
-        <h1>I love carpet. I love desk.</h1>
+        <h1>Allis Fig Pottery</h1>
         <Link to="/products" className="btn">
-          I love lamp
+          Check out my pottery!
         </Link>
       </div>
     </div>
