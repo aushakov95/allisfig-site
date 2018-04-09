@@ -16,6 +16,7 @@ class ProductsHeader extends Component {
           <div className="logo">
             <Link to="/" className="logo-link">
               <span>I love lamp</span>
+            </Link>
               <nav className="secondary-nav">
                 <CartCounter />
               </nav>
