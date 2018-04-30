@@ -75,6 +75,13 @@ class CheckoutForm extends Component {
     CheckoutTemplate.shipping_address.county = values.shipping_postcode;
     CheckoutTemplate.shipping_address.country = values.shipping_country;
 
+    var card_name = values.card_name;
+    PaymentTemplate.first_name = values.card_name.substr(0,card_name.indexOf(' '));
+    PaymentTemplate.last_name = values.card_name.substr(card_name.indexOf(' ')+1);
+
+    console.log(PaymentTemplate.first_name);
+    console.log(PaymentTemplate.last_name);
+
     this.props.dispatch(dispatch => {
       dispatch({ type: SUBMIT_PAYMENT });
     });
