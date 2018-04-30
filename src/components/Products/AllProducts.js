@@ -6,7 +6,7 @@ const isThereACurrencyPrice = product => {
   try {
     return (
       <div className="price">
-        {product.meta.display_price.with_tax.amount / 100}
+        {'$' + product.meta.display_price.with_tax.amount / 100}
       </div>
     );
   } catch (e) {

@@ -78,8 +78,7 @@ class Cart extends Component {
                 <div className="content">
                   <div className="cart-listing empty">
                     <p>
-                      Oh no, looks like you don't love lamp, as your cart is
-                      empty.
+                      Your cart is empty.
                     </p>
                     <Link className="btn" to="/products">
                       Start shopping

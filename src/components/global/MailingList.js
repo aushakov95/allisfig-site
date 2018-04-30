@@ -5,14 +5,10 @@ const MailingList = () => (
     <div className="content">
       <div className="mailing-list-content">
         <h2>
-          Do you <span className="love">love</span> lamp?
+          Contact me for specialized orders
         </h2>
         <p>
-          Sign up to recieve{' '}
-          <span className="word-mark">
-            I<span className="love">Love</span>Lamp
-          </span>{' '}
-          product news, promotions and updates.
+
         </p>
         <form className="newsletter-form" method="post" noValidate>
           <input
@@ -24,7 +20,7 @@ const MailingList = () => (
             aria-label="Email"
           />
           <button type="submit" className="submit">
-            Sign up
+            Submit
           </button>
         </form>
       </div>

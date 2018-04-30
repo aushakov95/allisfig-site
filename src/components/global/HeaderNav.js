@@ -7,11 +7,12 @@ const HeaderNav = () => (
   <div className="nav-container">
     <nav className="primary-nav light">
       <Link to="/products">Products</Link>
-      <Link to="/styles">Styles</Link>
     </nav>
-    // <div className="logo light">
-    //   <Link to="/">Allis Fig Pottery</Link>
-    // </div>
+    <div className="logo">
+      <Link to="/" className="logo-link">
+        <span>&Delta;llis Fig Pottery</span>
+      </Link>
+    </div>
     <nav className="secondary-nav light">
       <CartCounter />
     </nav>
