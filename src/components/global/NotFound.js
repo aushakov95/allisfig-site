@@ -12,9 +12,9 @@ const NotFound = () => (
       <section className="broken-container">
         <div className="content">
           <h2>404</h2>
-          <p>Uh oh, the bulb went out!</p>
+          <p>Uh oh, looks like this page does not exist!</p>
           <a href="/" className="btn">
-            See the light
+            Home page
           </a>
         </div>
       </section>
