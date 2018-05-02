@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import {StripeProvider} from 'react-stripe-elements';
 
 import Home from './Home/Home';
 import Cart from './Cart/Cart';
@@ -21,7 +22,11 @@ const App = props => (
       <Route path="/cart" component={Cart} />
       <Route path="/styles" component={StylesContainer} />
       <Route path="/products" component={ProductsContainer} />
-      <Route path="/checkout" component={CheckoutContainer} />
+
+      <StripeProvider apiKey="pk_test_AjjYCAe4gb9KcVYKSuy8Isr4">
+          <Route path="/checkout" component={CheckoutContainer} />
+      </StripeProvider>
+      
       <Route
         path="/order-confirmation"
         component={OrderConfirmationContainer}

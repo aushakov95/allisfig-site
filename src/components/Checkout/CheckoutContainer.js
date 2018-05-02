@@ -3,6 +3,7 @@ import CheckoutForm from './CheckoutForm';
 import CartHeader from '../Cart/CartHeader';
 import MobileNav from '../global/Mobile/MobileNav';
 import Loading from '../global/Loading';
+import {Elements} from 'react-stripe-elements';
 import { connect } from 'react-redux';
 
 function mapStateToProps(state) {
@@ -25,7 +26,9 @@ class CheckoutContainer extends Component {
         <div>
           <MobileNav />
           <CartHeader />
-          <CheckoutForm />
+          <Elements>
+            <CheckoutForm />
+          </Elements>
         </div>
       );
     } else {
