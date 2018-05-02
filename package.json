@@ -19,6 +19,7 @@
     "react-router-dom": "^4.1.1",
     "react-router-redux": "next",
     "react-scripts": "1.1.0",
+    "react-stripe-elements": "^1.6.0",
     "redux": "^3.7.1",
     "redux-form": "7.2.3",
     "redux-thunk": "2.2.0"
@@ -30,6 +31,9 @@
     "redux-logger": "^3.0.6"
   },
   "lint-staged": {
-    "*.{js,json,css,md}": ["prettier --write", "git add"]
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
