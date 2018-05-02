@@ -40,12 +40,7 @@ var CheckoutTemplate = {
 var PaymentTemplate = {
   gateway: 'stripe',
   method: 'purchase',
-  first_name: 'John',
-  last_name: 'Doe',
-  number: '4242424242424242',
-  month: '08',
-  year: '2020',
-  verification_value: '123'
+  payment: 'tok_visa'
 };
 
 class CheckoutForm extends Component {
