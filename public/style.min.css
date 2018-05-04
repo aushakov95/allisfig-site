@@ -3180,3 +3180,16 @@ nav a {
   animation: fadeIn 3s ease-in-out;
   margin: 4.625rem auto 0
 }
+
+.stripe-card-section {
+  border: 2px solid #e7e7e7;
+  margin: .9375rem 1.875rem 0;
+  /*padding: .9375rem 1.875rem 0;*/
+  padding: .9375rem .9375rem;
+  position: relative;
+  min-height: 3.75rem;
+  line-height: 1.5;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1.25rem;
+}
